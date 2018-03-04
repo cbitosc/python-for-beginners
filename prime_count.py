@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
-a=input('Enter the starting number of the range')
-b=input('Enter the last number of the range')
+a=int(input('Enter the starting number of the range: '))#converting string to integer
+b=int(input('Enter the last number of the range: '))#converting string to integer
 count=0
 for i in range(a,b+1):
 	flag=0
@@ -12,6 +12,6 @@ for i in range(a,b+1):
 			break
 	if(flag==0):
 		count+=1
-print count
+print ("# of prime numbers in range:",count) #added parentheses and text
 
 	
