@@ -1,10 +1,10 @@
 #!/usr/bin/python
 
-word1=raw_input('enter first string')
-word2=raw_input('enter second string')
+word1=input('enter first string: ') #changed to input
+word2=input('enter second string: ')#changed to input
 
 if(sorted(word1)==sorted(word2)):
-	print "anagram"
+	print ("anagram") #added parentheses
 else:
-	print "not an anagram"
+	print ("not an anagram")#added parentheses
 
