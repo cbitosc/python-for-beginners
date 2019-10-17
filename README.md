@@ -1,4 +1,4 @@
-# python-for-beginners
+# Python-for-beginners
 
 1. Implementation of a program for binary representation of a number.
       --A binary number is a number expressed in the base-2 numeral system or binary numeral system, which uses only two symbols: typically "0" (zero) and "1" (one).
